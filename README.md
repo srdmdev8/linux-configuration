@@ -48,3 +48,8 @@ Using your favorite web browser, go to this URL: http://34.218.2.98
 
 Now you are ready to navigate through my console and game catalog. Thank you for
 checking out my Linux Configuration Project!
+
+## Third-Party Resources Used
+- Amazon Lightsail to host my applications server and deploy it on the Web
+- PuTTY and PuTTYgen to convert the .pem file of my private key to a .ppk file as
+well as remote login to my server
