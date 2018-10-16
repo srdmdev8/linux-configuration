@@ -10,6 +10,7 @@ the server from scratch and did the following:
   - TCP (Port 2200)
   - HTTP (Port 80)
   - UDP/NTP (Port 123)
+- Modified the sshd config file to only allow SSH on port 2200
 - Created a new user named "grader" and provided them with sudo permissions
 - Created an SSH key pair for "grader" using `ssh-keygen`
 - Installed and configured PostgreSQL
@@ -41,7 +42,7 @@ unavailable until you have been successfully logged in, providing more of a
 ## Accessing the Server
 To access the server of my project you will need the following information:
 - Static IP Address: **34.218.2.98**
-- SSH Port: **22**
+- SSH Port: **2200**
 
 ## Running the Program
 Using your favorite web browser, go to this URL: http://34.218.2.98
